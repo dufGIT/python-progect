@@ -1,0 +1,10 @@
+项目说明：
+1.此项目通过bilibili学习爬虫爬取的豆瓣电影top250的数据，然后通过基本分析工具拿到想要的数据
+2.将数据存储到了豆瓣电影250.xls和sqlLite数据库里movie.db里
+3.最后view目录下则是一个对数据的可视化，用的flask的web框架，
+  static：放置前端样式、js、图片、css等
+  templates：放置html的地方
+  根目录的app.py则是写后台接口并返回页面web的逻辑处理地方
+  worlCloud.py是生成词云的图片的业务逻辑，很好玩的
+4.pachong.py则是专门处理爬取网页并存储的业务逻辑文件
+5.spider.test目录则是测试使用某个组件怎么使用的目录
